@@ -1,31 +1,42 @@
-# Visit Denmark 🇩🇰
-An educational and visually stunning website showcasing the tourism, attractions, and culture of Denmark! 
+# Daily Life Organizer
+
+A purple-themed daily planner, habit tracker, and mood & health logger built with React.
 
 ## Screenshots
-![Home Page](screenshots/home.png)
-![Gallery Page](screenshots/gallery.png)
-![Plan Trip Page](screenshots/plan-trip.png)
-![Contact Page](screenshots/contact.png)
+
+![Daily Life Organizer Hero](screenshots/hero.png)
+![Daily Life Organizer App](screenshots/app.png)
 
 ## Features
-- **Responsive Design**: Adapts beautifully to desktop and mobile screens.
-- **Dynamic Theme**: Employs a stylized "Denmark Flag" color palette (deep blue, rich red, and true black) alongside elegant calligraphy typography.
-- **Multiple Pages**:
-  - `index.html`: Home page featuring about section, top cities, attractions, and food recommendations.
-  - `gallery.html`: Photo gallery showcasing beautiful AI-generated imagery of Copenhagen and classic Danish features.
-  - `plan-trip.html`: An interactive form to help you organize your upcoming adventure to Scandinavia.
-  - `contact.html`: A contact form to get in touch with our team.
-- **Interactive Forms**: User-friendly `<form>` elements available for easy inquiries.
 
-## Installation
-Since this project uses static HTML/CSS files, there is no build step required.
-1. Clone this repository or download the ZIP file.
-2. Open `index.html` in any web browser of your choice.
+- ✅ Today’s tasks (add, complete, persistent via localStorage)
+- ✅ Habits with daily completion and streaks
+- ✅ Mood, sleep, water, and notes with history
+- 🎨 Unified purple gradient theme
 
-## Technologies Used
-- HTML5
-- Vanilla CSS3
-- Google Fonts (`Great Vibes` and `Playfair Display`)
+## Tech Stack
 
-## License
-This project is licensed under the MIT License - see the `LICENSE` file for details.
+- React (functional components + hooks)
+- localStorage for persistence
+- CSS for theming
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Project Structure
+
+- `src/App.jsx` – navigation + layout
+- `src/components/Tasks.jsx` – daily tasks
+- `src/components/Habits.jsx` – habits + streaks
+- `src/components/MoodHealth.jsx` – mood & health history
+- `src/App.css` – purple theme + layout
+
+## Future Ideas
+
+- Calendar view for mood & habit history  
+- PWA support (installable on mobile)  
+- Sync with a backend for multi-device use
