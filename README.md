@@ -9,6 +9,7 @@ A purple-themed daily planner, habit tracker, and mood & health logger built wit
 
 ### Demonstration Video
 ![Daily Life Organizer Demo Video](screenshots/daily_organizer_demo.webp)
+*[If the demonstration video is not playing, click here to view it directly in your browser.](https://raw.githubusercontent.com/Alysha93/Daily-Life-Organizational-app/main/screenshots/daily_organizer_demo.webp)*
 
 ## Features
 
