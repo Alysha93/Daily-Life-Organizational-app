@@ -7,6 +7,9 @@ A purple-themed daily planner, habit tracker, and mood & health logger built wit
 ![Daily Life Organizer Hero](screenshots/hero.png)
 ![Daily Life Organizer App](screenshots/app.png)
 
+### Demonstration Video
+![Daily Life Organizer Demo Video](screenshots/daily_organizer_demo.webp)
+
 ## Features
 
 - ✅ Today’s tasks (add, complete, persistent via localStorage)
